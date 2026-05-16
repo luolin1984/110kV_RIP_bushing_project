@@ -1,0 +1,29 @@
+ratings:
+  selected_model: BRFGL1-126/1250-4
+  voltage_class_kV: 126
+  rated_current_A: 1250
+  system_nominal_voltage_kV: 110
+  phase_to_ground_voltage_kV_rms: 72.75
+  current_carrying_mode: direct_current_carrying
+  standard_frequency_Hz: 50
+
+drawing_dimensions:
+  total_length_L_mm: 2245
+  creepage_distance_mm: 3906
+  external_insulation_length_L1_mm: 1150
+  external_insulation_diameter_D2_mm: 270
+  flange_length_L4_mm: 200
+  flange_outer_diameter_D_mm: 400
+  flange_bolt_circle_D0_mm: 350
+  flange_thickness_H_mm: 30
+  terminal_size_a1_mm: 40
+  oil_immersed_length_L2_mm: 595
+  CT_length_L3_mm: 200
+  conduit_inner_diameter_d3_mm: 40
+  oil_side_core_diameter_D1_mm: 132
+
+modeling_note: >
+  The model is reconstructed from the uploaded BRFGL1-126/1250-4 drawing.
+  The outer geometry and main dimensional constraints follow the drawing.
+  The internal condenser screens and detailed RIP layer structure remain
+  parameterized because the drawing does not provide screen-by-screen dimensions.

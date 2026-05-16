@@ -1,0 +1,32 @@
+selected_model:
+  product_model: BRFGL1-126/1250-4
+  voltage_class_kV: 126
+  rated_current_A: 1250
+  current_carrying_mode: direct_current_carrying
+  reason_for_selection: >
+    Selected as the main model for electro-thermal coupling simulation because
+    the direct current-carrying structure is suitable for conductor Joule loss,
+    terminal contact resistance degradation, and RIP condenser core thermal
+    response analysis.
+
+geometry_from_uploaded_drawing:
+  L_total_mm: 2245
+  creepage_distance_mm: 3906
+  L1_external_insulation_mm: 1150
+  D2_external_insulation_mm: 270
+  L4_flange_mm: 200
+  D_flange_mm: 400
+  D0_bolt_circle_mm: 350
+  H_flange_mm: 30
+  a1_terminal_mm: 40
+  L2_oil_immersed_mm: 595
+  L3_CT_mm: 200
+  d3_conduit_inner_diameter_mm: 40
+  D1_oil_side_core_diameter_mm: 132
+
+alternative_model:
+  product_model: BRFGL2-126/1250-4
+  current_carrying_mode: cable_current_carrying
+  note: >
+    Can be used as an alternative model if cable-through current carrying
+    structure is investigated.
