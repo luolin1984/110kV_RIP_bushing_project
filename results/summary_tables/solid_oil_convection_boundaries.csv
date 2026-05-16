@@ -1,0 +1,13 @@
+boundary_id,selection_name,physical_region,length_m,z_min_mm,z_max_mm,r_min_mm,r_max_mm
+OIL000,v3_bnd_oil_convection_seg_000,solid-only oil-immersed RIP outer surface,0.0495833333,-595.000000,-545.416667,65.950000,66.050000
+OIL001,v3_bnd_oil_convection_seg_001,solid-only oil-immersed RIP outer surface,0.0495833333,-545.416667,-495.833333,65.950000,66.050000
+OIL002,v3_bnd_oil_convection_seg_002,solid-only oil-immersed RIP outer surface,0.0495833333,-495.833333,-446.250000,65.950000,66.050000
+OIL003,v3_bnd_oil_convection_seg_003,solid-only oil-immersed RIP outer surface,0.0495833333,-446.250000,-396.666667,65.950000,66.050000
+OIL004,v3_bnd_oil_convection_seg_004,solid-only oil-immersed RIP outer surface,0.0495833333,-396.666667,-347.083333,65.950000,66.050000
+OIL005,v3_bnd_oil_convection_seg_005,solid-only oil-immersed RIP outer surface,0.0495833333,-347.083333,-297.500000,65.950000,66.050000
+OIL006,v3_bnd_oil_convection_seg_006,solid-only oil-immersed RIP outer surface,0.0495833333,-297.500000,-247.916667,65.950000,66.050000
+OIL007,v3_bnd_oil_convection_seg_007,solid-only oil-immersed RIP outer surface,0.0495833333,-247.916667,-198.333333,65.950000,66.050000
+OIL008,v3_bnd_oil_convection_seg_008,solid-only oil-immersed RIP outer surface,0.0495833333,-198.333333,-148.750000,65.950000,66.050000
+OIL009,v3_bnd_oil_convection_seg_009,solid-only oil-immersed RIP outer surface,0.0495833333,-148.750000,-99.166667,65.950000,66.050000
+OIL010,v3_bnd_oil_convection_seg_010,solid-only oil-immersed RIP outer surface,0.0495833333,-99.166667,-49.583333,65.950000,66.050000
+OIL011,v3_bnd_oil_convection_seg_011,solid-only oil-immersed RIP outer surface,0.0495833333,-49.583333,0.000000,65.950000,66.050000

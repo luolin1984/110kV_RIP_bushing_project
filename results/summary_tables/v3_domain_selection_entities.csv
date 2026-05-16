@@ -1,0 +1,12 @@
+physical_region,selection_name,dimension,entity_ids,entity_count,physical_meaning
+center_conductor_main,geom_v3_g_center_conductor_main_dom,domain,"2",1,"center conductor lower/main tube"
+center_conductor_upper,geom_v3_g_center_conductor_upper_dom,domain,"4",1,"center conductor upper tube"
+contact_resistance_heat_source_layer,geom_v3_g_contact_resistance_heat_source_layer_dom,domain,"3",1,"terminal-conductor contact heat-source layer"
+terminal_connector_region,geom_v3_g_terminal_connector_region_dom,domain,"6",1,"terminal connector region"
+rip_capacitor_core,geom_v3_g_rip_capacitor_core_dom,domain,"5 7 8 9 10 11 12 13 14 15 16 17",12,"RIP capacitor core"
+silicone_rubber_external_insulation,geom_v3_g_silicone_rubber_external_insulation_dom,domain,"21",1,"silicone rubber trunk"
+flange_grounded_metal_disk,geom_v3_g_flange_grounded_metal_disk_dom,domain,"19 82",2,"grounded flange disk"
+flange_grounded_metal_neck,geom_v3_g_flange_grounded_metal_neck_dom,domain,"18 19 20",3,"grounded flange neck"
+condenser_screens,v3_condenser_screens,domain,"7 8 9 10 11 12 13 14 15 16 17",11,"all explicit condenser screen domains"
+air_side_sheds_or_equivalent_envelope,v3_air_side_sheds_or_equivalent_envelope,domain,"19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82",64,"CAD air-side shed/envelope domains"
+inner_conduit_or_hollow_region,v3_inner_conduit_or_hollow_region,domain,"1 2 3 4",4,"inner hollow/conduit placeholder"
