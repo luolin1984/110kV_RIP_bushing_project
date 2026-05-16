@@ -1,0 +1,10 @@
+item,domain_id,include_in_source,rz_area_m2,axisym_volume_m3,effective_length_m,cross_section_area_m2,effective_resistance_ohm,Q_W,q_W_per_m3,note
+center_conductor_lower_main,2,true,0.0209400000,0.00342081741,1.74500000,0.00196035382,1.72761093e-05,26.9939207,,"by-ID conductor source domain; resistance=Q/I^2"
+center_conductor_upper,4,true,0.00552000000,0.000901762755,0.460000000,0.00196035382,4.48888327e-06,7.01388012,,"by-ID conductor source domain; resistance=Q/I^2"
+inner_hollow,1,false,,,,,,,,"not current-carrying copper loss domain"
+contact_layer,3,false,,,,,,,,"excluded from conductor Joule; handled by contact Rc heat source"
+rip_core,5,false,,,,,,,,"excluded from conductor Joule; handled by dielectric loss"
+terminal_connector,6,false,,,,,,,,"excluded from calibrated conductor Joule audit"
+screens,7 8 9 10 11 12 13 14 15 16 17,false,,,,,,,,"excluded from conductor Joule source in RUN006"
+flange,18 19 20 82,false,,,,,,,,"grounded metal, excluded from conductor Joule source"
+contact_resistance_heat_source,3,true,,7.84141526e-05,,0.00196035382,1.00000000e-06,1.56250000,19926.2499,"Qcontact target I^2*Rc0*Rc_factor=1.56250000 W; integrated by 2*pi*r volume weighting"
