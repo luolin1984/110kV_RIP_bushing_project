@@ -1,7 +1,0 @@
-name,r_min_mm,r_max_mm,z_min_mm,z_max_mm,note
-axisymmetry_axis,0,0,-595,1650,r=0 axis
-hv_conductor_boundary,20,20,-575,575,S00/conductor set to 72.75 kV RMS
-ground_flange_boundary,66,200,-100.0,100.0,S10/flange grounded
-air_outer_boundary,360,360,0,1650,air-side far boundary
-oil_outer_boundary,360,360,-595,0,oil-side far boundary
-external_insulation_surface,135,135,0,1150,silicone rubber shed envelope
