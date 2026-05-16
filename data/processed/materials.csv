@@ -1,0 +1,40 @@
+material,property,value,unit,source_id,source_url,public_data,assumed,sensitivity_required,notes,not_for_core_citation
+copper,density,8960,kg/m3,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Converted from physically standard copper density; original table value appears in g/cm3 scale.,true
+copper,thermal_conductivity,400,W/(m*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Conductive rod.,true
+copper,specific_heat_capacity,385,J/(kg*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Constant-pressure heat capacity.,true
+copper,electrical_conductivity,5.998e7,S/m,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Power-frequency conductor model.,true
+copper,resistivity_temperature_coefficient,0.00393,1/K,CRC_OR_COPPER_ENGINEERING_REFERENCE,SPECIFIC_DATASHEET_REQUIRED,true,true,true,Assumed standard copper alpha near 20 degC; replace with conductor material certificate for SCI-grade numeric claim.,true
+copper,relative_permittivity,1,dimensionless,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Metal domain placeholder.,true
+rip_capacitor_core,density,2210,kg/m3,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Converted from Table 3 value 2.21 g/cm3-equivalent.,true
+rip_capacitor_core,thermal_conductivity,0.20,W/(m*K),MDPI_2025_126KV;RUN002_THERMAL_CALIBRATION,https://www.mdpi.com/1996-1073/18/13/3239,true,true,true,COMSOL baseline value adjusted within epoxy-paper composite order of magnitude; keep sensitivity sweep against 0.10 W/(m*K) before manuscript use.,true
+rip_capacitor_core,specific_heat_capacity,730,J/(kg*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Constant-pressure heat capacity.,true
+rip_capacitor_core,electrical_conductivity,7e-15,S/m,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Fresh/dry RIP conductivity baseline.,true
+rip_capacitor_core,conductivity_temperature_beta,0.055,1/K,LIT_WANG_2014_DIELECTRIC;LIT_NING_2015_DIELECTRIC;ENGINEERING_ASSUMPTION,LOCAL_PDF_LIBRARY,true,true,true,Arrhenius-like sensitivity placeholder: sigma(T)=sigma_ref*exp(beta*(T-Tref)); fit from measured dielectric spectra before publication.,true
+rip_capacitor_core,relative_permittivity,4.2,dimensionless,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Power-frequency relative permittivity.,true
+rip_capacitor_core,dielectric_loss_factor,0.004,tan_delta,LIT_WANG_2014_DIELECTRIC;LIT_NING_2015_DIELECTRIC;ENGINEERING_ASSUMPTION,LOCAL_PDF_LIBRARY,true,true,true,Nominal tan_delta placeholder for dielectric-loss heat source; requires sensitivity analysis and calibration.,true
+rip_capacitor_core,tan_delta_multiplier_fresh,1.0,p.u.,ENGINEERING_ASSUMPTION,,false,true,true,Fresh/reference insulation multiplier.,true
+rip_capacitor_core,tan_delta_multiplier_aged_moderate,2.0,p.u.,LIT_WANG_2022_AGING;ENGINEERING_ASSUMPTION,LOCAL_PDF_LIBRARY,true,true,true,Equivalent aging sensitivity multiplier; not a direct service-life conversion.,true
+rip_capacitor_core,tan_delta_multiplier_aged_severe,5.0,p.u.,LIT_WANG_2022_AGING;ENGINEERING_ASSUMPTION,LOCAL_PDF_LIBRARY,true,true,true,Severe aging sensitivity multiplier for risk-boundary sweep.,true
+aluminum_foil_screen,density,2700,kg/m3,ENGINEERING_ASSUMPTION_FROM_PUBLIC_ALUMINUM_DATA,SPECIFIC_DATASHEET_REQUIRED,true,true,true,Standard aluminum density; replace with foil datasheet if available.,true
+aluminum_foil_screen,thermal_conductivity,237,W/(m*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Aluminum foil screen.,true
+aluminum_foil_screen,specific_heat_capacity,900,J/(kg*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Constant-pressure heat capacity.,true
+aluminum_foil_screen,electrical_conductivity,3.5e7,S/m,ENGINEERING_ASSUMPTION_FROM_PUBLIC_ALUMINUM_DATA,SPECIFIC_DATASHEET_REQUIRED,true,true,true,Replaces anomalous 1e8 S/m table value; use foil datasheet for final paper.,true
+aluminum_foil_screen,relative_permittivity,1,dimensionless,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Metal domain placeholder.,true
+silicone_rubber_housing,density,2200,kg/m3,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Outer insulator material from public model.,true
+silicone_rubber_housing,thermal_conductivity,0.20,W/(m*K),MDPI_2025_126KV;SHIN_ETSU_SILICONE_RUBBER,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Order of magnitude consistent with silicone rubber references.,true
+silicone_rubber_housing,specific_heat_capacity,703,J/(kg*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Constant-pressure heat capacity.,true
+silicone_rubber_housing,electrical_conductivity,1e-14,S/m,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Outer insulator model.,true
+silicone_rubber_housing,relative_permittivity,3.75,dimensionless,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Outer insulator model.,true
+silicone_rubber_housing,dielectric_loss_factor,0.01,tan_delta,ENGINEERING_ASSUMPTION,,false,true,true,Only for sensitivity if outer-insulator dielectric loss is enabled.,true
+transformer_oil,density,850,kg/m3,SPECIFIC_OIL_DATASHEET_REQUIRED,,false,true,true,Representative mineral transformer oil value; unsuitable for SCI numeric claim until replaced by datasheet or citable paper.,true
+transformer_oil,thermal_conductivity,0.12,W/(m*K),SPECIFIC_OIL_DATASHEET_REQUIRED,,false,true,true,Representative mineral transformer oil value.,true
+transformer_oil,specific_heat_capacity,1900,J/(kg*K),SPECIFIC_OIL_DATASHEET_REQUIRED,,false,true,true,Representative mineral transformer oil value.,true
+transformer_oil,electrical_conductivity,1e-12,S/m,ENGINEERING_ASSUMPTION,,false,true,true,Order-of-magnitude insulating oil conductivity for sensitivity.,true
+transformer_oil,relative_permittivity,2.2,dimensionless,SPECIFIC_OIL_DATASHEET_REQUIRED,,false,true,true,Representative mineral-oil dielectric constant; replace before SCI citation.,true
+transformer_oil,dielectric_loss_factor,0.002,tan_delta,SPECIFIC_OIL_DATASHEET_REQUIRED,,false,true,true,Representative nominal oil tan_delta placeholder.,true
+air,density,1.29,kg/m3,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Air domain.,true
+air,thermal_conductivity,0.025,W/(m*K),ENGINEERING_CORRECTION_TO_MDPI_AIR_VALUE,SPECIFIC_HEAT_TRANSFER_REFERENCE_REQUIRED,false,true,true,Corrected near-room-temperature air value; cite a heat-transfer handbook in manuscript.,true
+air,specific_heat_capacity,1003,J/(kg*K),MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Constant-pressure heat capacity.,true
+air,electrical_conductivity,1e-18,S/m,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Insulating air domain.,true
+air,relative_permittivity,1,dimensionless,MDPI_2025_126KV,https://www.mdpi.com/1996-1073/18/13/3239,true,false,false,Air domain.,true
+rip_capacitor_core,tan_delta_aging_multiplier,1;2;5,p.u.,LIT_WANG_2022_AGING;ENGINEERING_ASSUMPTION,LOCAL_PDF_LIBRARY,true,true,true,Aging multiplier set for tan_delta sensitivity; not a service-age conversion.,true
