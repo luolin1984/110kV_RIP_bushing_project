@@ -1,0 +1,3 @@
+profile,gap_start_mm,gap_end_mm,gap_width_mm,action,status
+brfgl1_cad_v2_air_profile.csv,,,0,none,PASS_NO_GAPS
+brfgl1_cad_v2_oil_profile.csv,,,0,none,PASS_NO_GAPS

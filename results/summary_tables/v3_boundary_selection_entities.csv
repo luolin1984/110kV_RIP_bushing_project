@@ -1,0 +1,6 @@
+physical_region,selection_name,dimension,entity_ids,entity_count,physical_meaning
+air_shed_external_candidate,v3_bnd_air_external_convection_explicit,boundary,"",0,"CAD air-side shed external surface candidate"
+air_terminal_external_candidate,v3_bnd_external_terminal_convection,boundary,"14 16 28 29",4,"terminal outer surface candidate"
+oil_external_candidate,v3_bnd_oil_immersed_surface_explicit,boundary,"",0,"oil-immersed outer surface candidate"
+flange_external_candidate,v3_bnd_flange_external_convection,boundary,"231 233 318",3,"flange external surface candidate"
+axisymmetry,v3_bnd_axisymmetry,boundary,"1 2 3",3,"r=0 axisymmetry boundary; must not be convective"
