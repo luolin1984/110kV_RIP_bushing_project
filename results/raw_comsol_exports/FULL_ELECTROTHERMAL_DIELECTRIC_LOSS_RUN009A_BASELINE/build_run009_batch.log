@@ -1,0 +1,12 @@
+*******************************************
+***COMSOL 6.0.0.318 progress output file***
+*******************************************
+Sun May 17 19:44:35 CST 2026
+COMSOL Multiphysics 6.0 (开发版本: 318) 在批处理模式下启动
+正在运行: /Users/luolin/Documents/New project/110kV_RIP_bushing_project/comsol/build_full_electrothermal_dielectric_loss_brfgl1.class
+类运行时: 7 s.
+正在保存模型: /Users/luolin/Documents/New project/110kV_RIP_bushing_project/comsol/BRFGL1-126-1250-4_full_electrothermal_dielectric_loss_RUN009_Model.mph
+保存时间: 0 s.
+总时间: 7 s.
+---------- 当前进度: 100 % - 完成
+Memory: 837/837 405916/405916

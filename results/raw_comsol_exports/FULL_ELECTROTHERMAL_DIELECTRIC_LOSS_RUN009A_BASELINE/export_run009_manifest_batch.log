@@ -1,0 +1,10 @@
+*******************************************
+***COMSOL 6.0.0.318 progress output file***
+*******************************************
+Sun May 17 20:20:29 CST 2026
+COMSOL Multiphysics 6.0 (开发版本: 318) 在批处理模式下启动
+正在运行: /Users/luolin/Documents/New project/110kV_RIP_bushing_project/comsol/export_full_electrothermal_run009_metrics.class
+类运行时: 0 s.
+总时间: 0 s.
+---------- 当前进度: 100 % - 完成
+Memory: 363/363 405736/405736

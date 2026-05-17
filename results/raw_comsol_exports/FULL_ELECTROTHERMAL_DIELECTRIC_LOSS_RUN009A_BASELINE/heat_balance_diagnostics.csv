@@ -1,0 +1,2 @@
+case_id,Qtotal_generated_W,Qremoved_air_W,Qremoved_oil_W,Qremoved_flange_W,Qremoved_total_W,residual_W,residual_percent_Qgenerated,residual_percent_max_energy_scale,heat_balance_status,notes
+STEADY_1250_LOAD_1p0,64.0444071,60.4664997,-60.4189353,65.2151159,65.2626803,-1.21827322,-1.90223202,-0.654631711,VALID_STRICT,"RUN008B low-power heat-balance classification retained; negative oil term means heat enters solid from hot oil"

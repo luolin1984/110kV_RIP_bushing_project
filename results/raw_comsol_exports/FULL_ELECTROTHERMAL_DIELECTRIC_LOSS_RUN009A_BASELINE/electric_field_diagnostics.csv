@@ -1,0 +1,2 @@
+case_id,Emax_global_V_per_m,Emax_RIP_V_per_m,Emax_RIP_probe_excluding_edges_V_per_m,E95_RIP_V_per_m,Emean_RIP_V_per_m,field_singularity_flag,screen_end_hotspot_flag,notes
+STEADY_1250_LOAD_1p0,45634515.2,45634515.2,45634515.2,13106429.4,1805617.57,false,false,"DIELECTRIC_LOSS_REVIEW_REQUIRED: Qdielectric_field/ref outside 0.1-10"

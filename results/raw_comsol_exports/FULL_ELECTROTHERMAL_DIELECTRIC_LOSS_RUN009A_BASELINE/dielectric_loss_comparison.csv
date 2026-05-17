@@ -1,0 +1,2 @@
+case_id,Qdielectric_RIP_ref_W,Qdielectric_RIP_field_W,Qdielectric_ratio_field_to_ref,Qdielectric_min_density_W_m3,Qdielectric_mean_density_W_m3,Qdielectric_max_density_W_m3,integration_method,status,notes
+STEADY_1250_LOAD_1p0,2.54518841,28.0485376,11.0202205,0.00000000,2357.79657,97318.3567,axisymmetric_2pi_r_RIP_domain_integral,SOLVED_VALID,"DIELECTRIC_LOSS_REVIEW_REQUIRED: Qdielectric_field/ref outside 0.1-10"

@@ -1,0 +1,2 @@
+case_id,Qjoule_conductor_W,Qcontact_W,Qdielectric_RIP_field_W,Qscreen_loss_W,Qtotal_W,Qjoule_expected_I2R_W,Qcontact_expected_I2Rc_W,Qjoule_relative_error_pct,Qcontact_relative_error_pct,status,notes
+STEADY_1250_LOAD_1p0,34.4333696,1.56250000,28.0485376,0.00000000,64.0444071,34.4333696,1.56250000,2.06352949e-14,-8.52651283e-14,SOLVED_VALID,"RUN006 source normalization retained; dielectric heat uses omega*eps0*epsr*tan_delta*es.normE^2"
