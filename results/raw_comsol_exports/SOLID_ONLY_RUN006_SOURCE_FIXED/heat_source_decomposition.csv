@@ -1,0 +1,2 @@
+case_id,Qjoule_conductor_W,Qcontact_W,Qdielectric_RIP_W,Qscreen_loss_W,Qtotal_W,conductor_volume_m3,contact_volume_m3,rip_volume_m3,conductor_cross_section_area_m2,effective_conductor_resistance_ohm
+STEADY_1250_LOAD_1p0,34.0078008,1.56250000,2.54518841,0.00000000,38.1154892,0.00432258016,7.84141526e-05,0.0118960804,0.00196035382,2.17649925e-05

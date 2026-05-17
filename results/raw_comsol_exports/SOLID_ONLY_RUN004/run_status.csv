@@ -1,0 +1,2 @@
+case_id,run_id,status,note
+STEADY_1250_LOAD_1p0,SOLID_ONLY_RUN004,SOLVED,"STEADY_1250_LOAD_1p0 solid-only thermal run on comp_v3_solid_solver"

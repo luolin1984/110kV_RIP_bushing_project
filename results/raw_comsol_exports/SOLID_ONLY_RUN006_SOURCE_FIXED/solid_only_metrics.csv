@@ -1,0 +1,2 @@
+case_id,run_id,status,Tmax_global_C,Tmax_conductor_C,Tmax_RIP_C,Tmax_contact_C,Tmax_silicone_C,Tmax_flange_C,dielectric_loss_mode,note
+STEADY_1250_LOAD_1p0,SOLID_ONLY_RUN006_SOURCE_FIXED,SOLVED_VALID,88.4189281,69.9996418,88.4189281,56.1501015,53.3964285,45.3919543,approximate_Qdielectric_ref,"RUN006 keeps explicit by-ID domain/boundary selections and exports axisymmetric 2*pi*r source normalization"
