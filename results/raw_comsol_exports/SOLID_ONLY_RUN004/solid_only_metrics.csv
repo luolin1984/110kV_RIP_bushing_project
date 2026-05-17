@@ -1,2 +1,0 @@
-case_id,run_id,status,Tmax_global_C,Tmax_conductor_C,Tmax_RIP_C,Tmax_contact_C,Tmax_silicone_C,Tmax_flange_C,dielectric_loss_mode,note
-STEADY_1250_LOAD_1p0,SOLID_ONLY_RUN004,SOLVED_VALID,88.4189281,69.9996418,88.4189281,56.1501015,53.3964285,45.3919543,approximate_Qdielectric_ref,"solid-only thermal baseline on comp_v3_solid_solver; dielectric loss uses average-field Qdielectric_rip_ref, not es.normE"

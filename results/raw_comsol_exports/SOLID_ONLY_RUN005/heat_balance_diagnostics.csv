@@ -1,2 +1,0 @@
-case_id,run_id,conductor_cross_section_area_m2,conductor_volume_m3,conductor_effective_resistance_ohm,Qjoule_total_W,Qcontact_total_W,Qdielectric_total_W,Qtotal_W,air_convection_boundary_length_m,oil_convection_boundary_length_m,heat_removed_air_W,heat_removed_oil_W,residual_heat_balance_W
-STEADY_1250_LOAD_1p0,SOLID_ONLY_RUN005,0.00196035382,0.116260000,0.000737333666,1152.08385,910.629620,4.70694070,2067.42041,1.15000000,0.595000000,231.612911,1670.36967,165.437831
