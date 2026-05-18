@@ -1,0 +1,12 @@
+preferred_term,avoid_terms,definition,where_used,notes
+finite-element numerical simulation,experiment; physical validation; measured validation,A COMSOL/FEM-based numerical workflow without laboratory or field measurement validation.,Methods; Results; limitations,Use this term for the whole model chain.
+diagnostic risk zoning,standard limit; IEC limit; material lifetime threshold,Internal visualization classes for screening case severity.,4.3; captions,Always state that it is not a standard limit.
+field-coupled dielectric loss,true measured dielectric loss; final dielectric proof,RIP dielectric heat source integrated from the electrostatic field solution.,3.3; 4.1; 4.4,Retain review flag.
+approximate dielectric-loss reference,old result; wrong result,Average-field diagnostic reference used before full field coupling.,3.4; 4.4,Useful only for early diagnostics.
+contact-resistance multiplier,defect severity measured value,Parameter multiplier applied to the equivalent contact resistance.,3.4; 4.2; 4.5,Use Rc_factor consistently.
+parameterized contact degradation,measured defect; failure sample,Equivalent model for contact heating sensitivity.,3.3; 4.5,Do not imply observed failure geometry.
+explicit by-ID selection,Box selection; coordinate selection,"COMSOL selections defined by domain or boundary IDs for materials, sources, and boundaries.",3.2; 3.5,Key audit phrase.
+floating condenser screen,fixed intermediate screen,Intermediate screen treated as floating potential with zero net charge.,3.3,S01-S09 should not be fixed potentials.
+medium-vs-fine mesh convergence,mesh proof; exact convergence,Mesh independence check using fine mesh as the reference.,3.5; 4.6,Keep numerical-verification scope.
+thermal warning,unsafe; failed,Diagnostic zone for elevated Tmax below thermal-risk class.,4.3,Not a standard operating limit.
+thermal risk,failure; breakdown,Highest diagnostic temperature class in the project threshold scheme.,4.3,No RUN010 thermal-risk cases.
