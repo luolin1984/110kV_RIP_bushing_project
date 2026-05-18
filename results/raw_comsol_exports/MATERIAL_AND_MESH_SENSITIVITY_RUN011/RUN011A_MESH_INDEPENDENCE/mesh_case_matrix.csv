@@ -1,0 +1,10 @@
+case_id,mesh_level,auto_mesh_size,load_multiplier_pu,current_A,oil_temperature_C,air_temperature_C,contact_resistance_multiplier_pu,voltage_multiplier_pu,tan_delta_multiplier_pu,source_model,notes
+CASE_A_BASELINE,coarse,9,1.000000,1250.00000,85.000000,25.000000,1.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_B_HIGH_CONTACT,coarse,9,1.200000,1500.00000,95.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_C_HIGHEST_PRESSURE,coarse,9,1.400000,1750.00000,105.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_A_BASELINE,medium,8,1.000000,1250.00000,85.000000,25.000000,1.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_B_HIGH_CONTACT,medium,8,1.200000,1500.00000,95.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_C_HIGHEST_PRESSURE,medium,8,1.400000,1750.00000,105.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_A_BASELINE,fine,6,1.000000,1250.00000,85.000000,25.000000,1.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_B_HIGH_CONTACT,fine,6,1.200000,1500.00000,95.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"
+CASE_C_HIGHEST_PRESSURE,fine,6,1.400000,1750.00000,105.000000,25.000000,20.000000,1.000000,1.000000,field_coupled_Qdielectric,"RUN011A mesh independence; medium autoMeshSize=8 follows RUN010"

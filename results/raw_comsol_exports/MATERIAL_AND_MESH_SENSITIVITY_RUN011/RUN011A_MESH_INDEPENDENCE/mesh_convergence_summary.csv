@@ -1,0 +1,10 @@
+case_id,mesh_level,reference_mesh_level,err_Tmax_global_pct,err_Tmax_RIP_pct,err_Tmax_contact_pct,err_E95_RIP_pct,err_Qdielectric_pct,heat_balance_valid,field_singularity_flag,medium_vs_fine_pass,status,notes
+CASE_A_BASELINE,coarse,fine,1.9621485924321478,1.9621485924321478,0.3657605991162815,0.006973021510252024,0.00963097658062682,True,False,False,COARSE_DIAGNOSTIC_ONLY,coarse mesh is diagnostic and is not the acceptance basis
+CASE_A_BASELINE,medium,fine,0.3547984358321174,0.3547984358321174,0.16317592561631075,0.0015473561246129,0.0017801601475913552,True,False,True,PASS_MEDIUM_VS_FINE,medium mesh compared against fine mesh
+CASE_A_BASELINE,fine,fine,0.0,0.0,0.0,0.0,0.0,True,False,True,REFERENCE_FINE,fine mesh used as convergence reference
+CASE_B_HIGH_CONTACT,coarse,fine,0.27155494426603105,0.2872810744874793,0.27367540649388056,0.006973021510252024,0.00963097658062682,True,False,False,COARSE_DIAGNOSTIC_ONLY,coarse mesh is diagnostic and is not the acceptance basis
+CASE_B_HIGH_CONTACT,medium,fine,0.07930947253091618,0.0767270879399896,0.0838422619885968,0.0015473561246129,0.0017801601475913552,True,False,True,PASS_MEDIUM_VS_FINE,medium mesh compared against fine mesh
+CASE_B_HIGH_CONTACT,fine,fine,0.0,0.0,0.0,0.0,0.0,True,False,True,REFERENCE_FINE,fine mesh used as convergence reference
+CASE_C_HIGHEST_PRESSURE,coarse,fine,0.26432769704057685,0.28181770672091083,0.26624525737589877,0.006973021510252024,0.00963097658062682,True,False,False,COARSE_DIAGNOSTIC_ONLY,coarse mesh is diagnostic and is not the acceptance basis
+CASE_C_HIGHEST_PRESSURE,medium,fine,0.06652656404871597,0.06307111963196146,0.07129085432359425,0.0015473561246129,0.0017801601475913552,True,False,True,PASS_MEDIUM_VS_FINE,medium mesh compared against fine mesh
+CASE_C_HIGHEST_PRESSURE,fine,fine,0.0,0.0,0.0,0.0,0.0,True,False,True,REFERENCE_FINE,fine mesh used as convergence reference
