@@ -1,0 +1,26 @@
+artifact,path,exists,size_bytes,status,notes
+run_stage_audit_summary.csv,results/summary_tables/manuscript_ready/run_stage_audit_summary.csv,true,4021,OK,artifact exists and is non-empty
+key_result_summary.csv,results/summary_tables/manuscript_ready/key_result_summary.csv,true,4182,OK,artifact exists and is non-empty
+manuscript_figure_index.csv,results/summary_tables/manuscript_ready/manuscript_figure_index.csv,true,4826,OK,artifact exists and is non-empty
+manuscript_table_index.csv,results/summary_tables/manuscript_ready/manuscript_table_index.csv,true,2082,OK,artifact exists and is non-empty
+model_validation_evidence_chain.csv,results/summary_tables/manuscript_ready/model_validation_evidence_chain.csv,true,3959,OK,artifact exists and is non-empty
+Fig1_model_workflow_and_geometry.png,results/paper_figures/manuscript_ready/Fig1_model_workflow_and_geometry.png,true,141886,OK,artifact exists and is non-empty
+Fig2_baseline_field_dielectric_temperature.png,results/paper_figures/manuscript_ready/Fig2_baseline_field_dielectric_temperature.png,true,166015,OK,artifact exists and is non-empty
+Fig3_run010_Tmax_risk_heatmap.png,results/paper_figures/manuscript_ready/Fig3_run010_Tmax_risk_heatmap.png,true,90467,OK,artifact exists and is non-empty
+Fig4_run010_contact_temperature_risk_heatmap.png,results/paper_figures/manuscript_ready/Fig4_run010_contact_temperature_risk_heatmap.png,true,180087,OK,artifact exists and is non-empty
+Fig5_safe_load_boundary_by_oil_and_Rc.png,results/paper_figures/manuscript_ready/Fig5_safe_load_boundary_by_oil_and_Rc.png,true,41926,OK,artifact exists and is non-empty
+Fig6_heat_source_decomposition_representative_cases.png,results/paper_figures/manuscript_ready/Fig6_heat_source_decomposition_representative_cases.png,true,39228,OK,artifact exists and is non-empty
+Fig7_run008_vs_run010_temperature_difference.png,results/paper_figures/manuscript_ready/Fig7_run008_vs_run010_temperature_difference.png,true,84112,OK,artifact exists and is non-empty
+Fig8_mesh_independence_summary.png,results/paper_figures/manuscript_ready/Fig8_mesh_independence_summary.png,true,111716,OK,artifact exists and is non-empty
+Fig9_parameter_sensitivity_ranking.png,results/paper_figures/manuscript_ready/Fig9_parameter_sensitivity_ranking.png,true,35321,OK,artifact exists and is non-empty
+FigS1_full_run_audit_flow.png,results/paper_figures/manuscript_ready/FigS1_full_run_audit_flow.png,true,73330,OK,artifact exists and is non-empty
+FigS2_Qcontact_I2Rc_validation.png,results/paper_figures/manuscript_ready/FigS2_Qcontact_I2Rc_validation.png,true,32686,OK,artifact exists and is non-empty
+FigS3_Qjoule_I2_scaling_validation.png,results/paper_figures/manuscript_ready/FigS3_Qjoule_I2_scaling_validation.png,true,49513,OK,artifact exists and is non-empty
+FigS4_heat_balance_residual_distribution.png,results/paper_figures/manuscript_ready/FigS4_heat_balance_residual_distribution.png,true,34258,OK,artifact exists and is non-empty
+FigS5_Efield_diagnostic_summary.png,results/paper_figures/manuscript_ready/FigS5_Efield_diagnostic_summary.png,true,50018,OK,artifact exists and is non-empty
+FigS6_dielectric_loss_field_to_ref_ratio.png,results/paper_figures/manuscript_ready/FigS6_dielectric_loss_field_to_ref_ratio.png,true,56614,OK,artifact exists and is non-empty
+FigS7_material_sensitivity_each_parameter.png,results/paper_figures/manuscript_ready/FigS7_material_sensitivity_each_parameter.png,true,101896,OK,artifact exists and is non-empty
+model_validation_and_manuscript_figures_run012_report.md,docs/model_validation_and_manuscript_figures_run012_report.md,true,4473,OK,artifact exists and is non-empty
+experiment_section_outline.md,docs/manuscript_draft_sections/experiment_section_outline.md,true,3558,OK,artifact exists and is non-empty
+results_discussion_key_paragraphs.md,docs/manuscript_draft_sections/results_discussion_key_paragraphs.md,true,4308,OK,artifact exists and is non-empty
+manuscript_ready_figure_directory,results/paper_figures/manuscript_ready,true,0,OK,artifact exists and is non-empty
