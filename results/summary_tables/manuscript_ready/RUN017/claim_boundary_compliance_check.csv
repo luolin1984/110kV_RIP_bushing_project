@@ -1,0 +1,13 @@
+boundary_item,required_phrase_or_meaning,appears_in_submission_prep_draft,risk_if_missing,status,action
+"finite-element numerical screening, not physical experiment",finite-element numerical screening AND not laboratory or field validation,true,HIGH,OK,none
+no laboratory validation,No laboratory AND validation has been completed,true,HIGH,OK,none
+no field monitoring validation,field-monitoring AND validation has been completed,true,HIGH,OK,none
+"diagnostic risk zoning is internal/screening, not standard limit",diagnostic risk zones are internal screening classes AND not standard limits,true,HIGH,OK,none
+"contact-resistance multiplier is parameterized equivalent model, not measured defect",contact-resistance multiplier is a parameterized equivalent model AND not a measured defect,true,HIGH,OK,none
+DIELECTRIC_LOSS_REVIEW_REQUIRED / dielectric_loss_review_required retained,DIELECTRIC_LOSS_REVIEW_REQUIRED AND dielectric_loss_review_required,true,HIGH,OK,none
+2D axisymmetric limitation,two-dimensional axisymmetric,true,MEDIUM,OK,none
+no CFD fluid-domain,rather than resolved CFD fluid domains,true,MEDIUM,OK,none
+no transient overload/weather history,transient overload AND outside RUN010,true,MEDIUM,OK,none
+no full 3D terminal/flange/bolt resolution,three-dimensional terminal AND flange bolt holes,true,MEDIUM,OK,none
+no operational rule / no safety guarantee,not an operational rule AND not standard limits,true,HIGH,OK,none
+unresolved references require manual verification before submission,Reference placeholders also remain unresolved or partially resolved AND manual verification before submission,true,HIGH,OK,none

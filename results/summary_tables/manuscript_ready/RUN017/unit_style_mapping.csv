@@ -1,0 +1,4 @@
+original_style,submission_style,scope,numeric_equivalence,notes
+degC,°C,temperature values in submission_format_prep_manuscript_en.md and zh.md,unchanged numeric value,Numeric claim check accepts both degC and °C while submission draft uses °C.
+W,W,heat source values,unchanged,No unit style conversion needed.
+%,%,mesh errors and residuals,unchanged,No unit style conversion needed.

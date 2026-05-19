@@ -1,0 +1,18 @@
+numeric_claim,expected_value_from_RUN016_or_RUN015,appears_in_submission_prep_draft,actual_text_value,evidence_source_file,evidence_status,unit_style,action
+88.589 degC / 88.589 °C,88.589 °C,true,88.589 °C,,OK,°C,none
+28.049 W,28.049 W,true,28.049 W,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RUN009A_BASELINE/baseline_metrics.csv,OK,unchanged,none
+11.020,11.020,true,11.020,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RUN009A_BASELINE/baseline_metrics.csv,OK,unchanged,none
+67.397-134.974 degC / °C,67.397-134.974 °C,true,67.397-134.974 °C,,OK,°C,none
+129.925 degC / °C,129.925 °C,true,129.925 °C,,OK,°C,none
+"safe 119, attention 4, warning 2, thermal-risk 0","safe 119, attention 4, warning 2, thermal-risk 0",true,"safe 119, attention 4, warning 2, thermal-risk 0",results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/run010_risk_metrics.csv,OK,unchanged,none
+"contact_safe 115, contact_attention 6, contact_warning 4, contact-risk 0","contact_safe 115, contact_attention 6, contact_warning 4, contact-risk 0",true,"contact_safe 115, contact_attention 6, contact_warning 4, contact-risk 0",results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/run010_risk_metrics.csv,OK,unchanged,none
+2.678%,2.678%,true,2.678%,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/heat_balance_by_case.csv,OK,unchanged,none
+0/125 field_singularity_flag,0/125 field_singularity_flag,true,0/125 field_singularity_flag,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/electric_field_diagnostics_by_case.csv,OK,unchanged,none
+125/125 dielectric_loss_review_required,125/125 dielectric_loss_review_required,true,125/125 dielectric_loss_review_required,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/dielectric_loss_by_case.csv,OK,unchanged,none
+0.617 degC / °C mean delta_Tmax,0.617 °C mean delta_Tmax,true,0.617 °C mean delta_Tmax,,OK,°C,none
+2.816 degC / °C max delta_Tmax,2.816 °C max delta_Tmax,true,2.816 °C max delta_Tmax,,OK,°C,none
+2/125 changed risk zones,2/125 changed risk zones,true,2/125 changed risk zones,results/raw_comsol_exports/FULL_ELECTROTHERMAL_DIELECTRIC_LOSS_RISK_125_RUN010/run008_vs_run010_comparison.csv,OK,unchanged,none
+0.355% max Tmax mesh error,0.355% max Tmax mesh error,true,0.355% max Tmax mesh error,results/raw_comsol_exports/MATERIAL_AND_MESH_SENSITIVITY_RUN011/RUN011A_MESH_INDEPENDENCE/mesh_convergence_summary.csv,OK,unchanged,none
+0.002% max E95 mesh error,0.002% max E95 mesh error,true,0.002% max E95 mesh error,results/raw_comsol_exports/MATERIAL_AND_MESH_SENSITIVITY_RUN011/RUN011A_MESH_INDEPENDENCE/mesh_convergence_summary.csv,OK,unchanged,none
+0.002% max Qdielectric mesh error,0.002% max Qdielectric mesh error,true,0.002% max Qdielectric mesh error,results/raw_comsol_exports/MATERIAL_AND_MESH_SENSITIVITY_RUN011/RUN011A_MESH_INDEPENDENCE/mesh_convergence_summary.csv,OK,unchanged,none
+tan_delta_multiplier > epsr_RIP > Rc0_multiplier > h_air > k_RIP_multiplier > h_oil,tan_delta_multiplier > epsr_RIP > Rc0_multiplier > h_air > k_RIP_multiplier > h_oil,true,tan_delta_multiplier > epsr_RIP > Rc0_multiplier > h_air > k_RIP_multiplier > h_oil,results/raw_comsol_exports/MATERIAL_AND_MESH_SENSITIVITY_RUN011/RUN011B_MATERIAL_BOUNDARY_SENSITIVITY/sensitivity_index_summary.csv,OK,unchanged,none
