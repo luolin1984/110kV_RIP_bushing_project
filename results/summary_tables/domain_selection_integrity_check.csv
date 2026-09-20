@@ -1,7 +1,0 @@
-selection_name,dimension,r_min_mm,r_max_mm,z_min_mm,z_max_mm,overlap_check,status,note
-v2_center_conductor_joule_lower,domain,20,32,-595,1149,nonoverlap_with_contact_and_rip,PASS,Joule/postprocess conductor lower section excludes the contact layer.
-v2_center_conductor_joule_upper,domain,20,32,1191,1650,nonoverlap_with_contact_and_rip,PASS,Joule conductor upper section excludes the contact layer.
-v2_contact_resistance_heat_source_layer_strict,domain,20,32,1150.1,1189.9,nonoverlap_with_conductor_postprocess_and_rip,PASS,Contact heat layer has a dedicated strict selection.
-v2_rip_capacitor_core_strict,domain,32.1,65.9,-594,1149,nonoverlap_with_conductor_contact_flange_silicone,PASS,RIP postprocessing selection excludes conductor and contact layer by radius.
-v2_silicone_rubber_external_insulation_strict,domain,66.1,81.9,16,1149,nonoverlap_with_rip_flange_air_sheds,PASS,Silicone trunk selection excludes flange overlap and surrounding air.
-v2_flange_grounded_metal_strict,domain,66.1,199.9,-99,99,nonoverlap_with_contact_rip_silicone,PASS,Flange strict selection is kept separate for Tmax checks.

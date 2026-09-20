@@ -1,4 +1,0 @@
-entity_a,entity_b,overlap_area_mm2,status,note
-flange_disk,flange_neck,1020.000000,ALLOWED,same grounded flange part
-rip_capacitor_core,oil_side_shield_selection,0,PASS_SELECTION_ONLY,"oil_side_shield_selection is a selection on RIP, not a duplicate geometry entity"
-rip_capacitor_core,oil_side_core_selection,0,PASS_SELECTION_ONLY,"oil_side_core_selection is a selection on RIP, not a duplicate geometry entity"

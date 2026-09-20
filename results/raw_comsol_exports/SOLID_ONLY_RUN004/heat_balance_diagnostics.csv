@@ -1,2 +1,0 @@
-case_id,Qtotal_generated_W,Qremoved_air_W,Qremoved_oil_W,Qremoved_flange_W,Qremoved_total_W,residual_W,residual_percent,status
-STEADY_1250_LOAD_1p0,38.1154892,54.4974833,-75.0473736,59.9057206,39.3558303,-1.24034105,-3.25416536,SOLVED_VALID

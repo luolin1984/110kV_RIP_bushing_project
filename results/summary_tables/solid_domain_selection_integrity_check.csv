@@ -1,6 +1,0 @@
-selection_name,dimension,overlap_policy,Tmax_C,integrity_status,note
-v3_center_conductor_joule_lower,domain,strict_non_overlapping,69.9996418,CHECKED,conductor postprocessing excludes contact layer
-v3_rip_capacitor_core_strict,domain,strict_non_overlapping,88.4189281,CHECKED,RIP postprocessing excludes conductor/contact/flange by radial and axial window
-v3_contact_resistance_heat_source_layer_strict,domain,strict_non_overlapping,56.1501015,CHECKED,contact heat source layer is isolated at terminal joint
-v3_silicone_rubber_external_insulation_strict,domain,strict_non_overlapping,53.3964285,CHECKED,silicone trunk strict window only
-v3_flange_grounded_metal_strict,domain,strict_non_overlapping,45.3919543,CHECKED,flange strict window only

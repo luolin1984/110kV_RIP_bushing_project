@@ -1,2 +1,0 @@
-case_id,run_id,status,Tmax_global_C,Tmax_conductor_C,Tmax_RIP_C,Tmax_contact_C,Emax_global_V_per_m,Emax_RIP_V_per_m,Qcontact_W,note
-STEADY_1250_LOAD_1p0,SOLID_ONLY_RUN005,SOLVED_INVALID_TEMPERATURE,176.187367,173.158969,94.6670130,176.187367,,,910.629620,"solid-only thermal diagnostic on comp_v2_cad_solid_preview; Tmax_global_C does not satisfy <150 C review target"

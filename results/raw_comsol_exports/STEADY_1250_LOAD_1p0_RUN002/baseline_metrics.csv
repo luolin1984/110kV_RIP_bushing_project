@@ -1,2 +1,0 @@
-case_id,run_id,status,Tmax_global_C,Tmax_conductor_C,Tmax_RIP_C,Tmax_contact_C,Emax_global_V_per_m,Emax_RIP_V_per_m,Emax_screen_end_probe_V_per_m,Qcontact_W,note
-STEADY_1250_LOAD_1p0,RUN002,SOLVED,211.226442,211.226442,206.461446,211.226442,50554592.4,29550496.5,29550496.5,1.56250000,"RUN002 CAD-driven baseline"

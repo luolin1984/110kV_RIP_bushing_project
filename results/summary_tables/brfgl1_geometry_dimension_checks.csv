@@ -1,9 +1,0 @@
-check_name,required_value,unit,model_value,status
-total_axial_length,2245,mm,2245,PASS
-air_side_length,1650,mm,1650,PASS
-oil_immersed_length,595,mm,595,PASS
-external_insulation_max_radius,135,mm,135,PASS
-flange_max_radius,200,mm,200,PASS
-oil_side_core_radius,66,mm,66,PASS
-max_condenser_screen_outer_radius,66,mm,57.75,PASS
-creepage_not_used_as_axial_length,2245,mm,2245,PASS
